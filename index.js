@@ -48,7 +48,7 @@ function buscar() {
   console.log("Função de busca");
 
   let abrigoProcurado = prompt(
-    "Para procurar a cidade digite: \n Cidade do abrigo"
+    "Para procurar a cidade digite: \n Cidade do abrigo \n Nome do abrigo \n Endereço do abrigo"
   );
 
   for (abrigoProcurado in dados) {
@@ -73,8 +73,6 @@ function buscar() {
   }
 
 }
-
-
 
 //função para deletar
 
